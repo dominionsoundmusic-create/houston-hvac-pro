@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Houston HVAC Pro | AC Repair & Air Conditioning Service Houston TX</title>
+<meta name="description" content="Houston's trusted HVAC company. AC repair, air conditioning installation, furnace service, and emergency HVAC repair across Houston and all surrounding communities. Call now for same-day service.">
+<meta name="keywords" content="AC repair Houston, HVAC Houston TX, air conditioning repair Houston, AC installation Houston, emergency AC repair Houston, HVAC service near me Houston">
+<meta name="geo.region" content="US-TX">
+<meta name="geo.placename" content="Houston, Texas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+"name": "Houston HVAC Pro",
+"description": "Professional AC repair, air conditioning installation, and HVAC service in Houston TX and surrounding areas",
+"telephone": "832-662-4107",
+"areaServed": "Houston, TX and surrounding communities",
+"serviceType": "HVAC Service",
+"priceRange": "$$",
+"openingHours": "Mo-Su 00:00-23:59"
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--primary:#0d2137;
+--accent:#e63946;
+--cool:#00b4d8;
+--cool-light:#90e0ef;
+--warm:#f4a261;
+--white:#ffffff;
+--cream:#f8f9fa;
+--mid:#6c757d;
+--ff-display:'Bebas Neue',sans-serif;
+--ff-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--ff-body);background:var(--white);color:#1a1a1a;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,33,55,0.97);backdrop-filter:blur(10px);padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:66px;border-bottom:1px solid rgba(0,180,216,0.2)}
+.nav-logo{font-family:var(--ff-display);font-size:1.4em;color:var(--white);text-decoration:none;letter-spacing:1px}
+.nav-logo span{color:var(--cool)}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{color:rgba(255,255,255,0.75);text-decoration:none;font-size:0.87em;font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--cool)}
+.nav-cta{background:var(--accent);color:var(--white);padding:10px 22px;border-radius:6px;text-decoration:none;font-weight:700;font-size:0.87em;transition:background 0.2s}
+.nav-cta:hover{background:#c1121f}
+.quote-bar{background:var(--primary);border-top:1px solid rgba(201,168,76,0.3);border-bottom:1px solid rgba(201,168,76,0.3);padding:10px 24px;text-align:center}
+.quote-bar p{font-size:0.85em;color:#eae4d8;font-style:italic;margin:0}
+.quote-bar span{color:#c9a84c;font-style:normal;font-weight:700}
+.hero{min-height:100vh;background:linear-gradient(160deg,var(--primary) 0%,#0a3d62 50%,#1e6091 100%);display:flex;flex-direction:column;justify-content:center;padding:120px 40px 80px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80') center/cover no-repeat;opacity:0.08}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,180,216,0.15);border:1px solid rgba(0,180,216,0.4);color:var(--cool-light);padding:6px 16px;border-radius:100px;font-size:0.78em;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:28px;width:fit-content;position:relative}
+.hero h1{font-family:var(--ff-display);font-size:clamp(3.5em,8vw,7em);line-height:0.95;color:var(--white);letter-spacing:2px;margin-bottom:8px;position:relative}
+.hero h1 .accent{color:var(--cool);display:block}
+.hero-sub{font-size:clamp(1em,2vw,1.2em);color:rgba(255,255,255,0.65);max-width:560px;line-height:1.7;margin-bottom:40px;font-weight:300;position:relative}
+.hero-actions{display:flex;gap:16px;flex-wrap:wrap;position:relative}
+.btn-primary{background:var(--accent);color:var(--white);padding:16px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1em;transition:all 0.2s;box-shadow:0 4px 24px rgba(230,57,70,0.4)}
+.btn-primary:hover{background:#c1121f;transform:translateY(-1px)}
+.btn-secondary{background:transparent;color:var(--white);padding:16px 36px;border-radius:8px;text-decoration:none;font-weight:600;font-size:1em;border:1px solid rgba(255,255,255,0.3);transition:all 0.2s}
+.btn-secondary:hover{border-color:var(--cool);color:var(--cool)}
+.emergency-bar{background:var(--accent);padding:16px 40px;text-align:center}
+.emergency-bar p{color:var(--white);font-weight:700;font-size:1em}
+.emergency-bar a{color:var(--white);text-decoration:none;font-size:1.1em}
+.stats-bar{background:#0a1628;padding:28px 40px;display:flex;justify-content:center;gap:64px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-family:var(--ff-display);font-size:2.2em;color:var(--cool);letter-spacing:1px}
+.stat-label{font-size:0.78em;color:rgba(255,255,255,0.5);letter-spacing:0.5px;text-transform:uppercase;margin-top:2px}
+section{padding:88px 40px}
+.section-inner{max-width:1100px;margin:0 auto}
+.eyebrow{font-size:0.75em;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--cool);margin-bottom:12px}
+.section-title{font-family:var(--ff-display);font-size:clamp(2em,4vw,3em);color:var(--primary);letter-spacing:1px;margin-bottom:16px;line-height:1.05}
+.section-title.light{color:var(--white)}
+.section-body{font-size:1.05em;color:var(--mid);line-height:1.8;max-width:600px}
+.services{background:var(--cream)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:56px}
+.service-card{background:var(--white);border-radius:16px;overflow:hidden;box-shadow:0 2px 20px rgba(0,0,0,0.06);transition:transform 0.2s,box-shadow 0.2s}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 8px 40px rgba(0,0,0,0.1)}
+.service-img{width:100%;height:220px;object-fit:cover;display:block}
+.service-body{padding:24px}
+.service-icon{font-size:1.8em;margin-bottom:12px}
+.service-name{font-weight:700;font-size:1.1em;color:var(--primary);margin-bottom:8px}
+.service-desc{color:var(--mid);font-size:0.92em;line-height:1.6}
+.service-price{margin-top:16px;font-weight:700;color:var(--accent);font-size:0.9em}
+.keywords{background:var(--primary)}
+.keywords-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:40px}
+.keyword-chip{background:rgba(255,255,255,0.06);border:1px solid rgba(0,180,216,0.2);border-radius:8px;padding:12px 16px;color:rgba(255,255,255,0.8);font-size:0.88em;font-weight:500}
+.keyword-chip:hover{background:rgba(0,180,216,0.1);border-color:var(--cool)}
+.areas{background:var(--cream)}
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-top:48px}
+.area-chip{background:var(--white);border:1px solid #e0e8f0;border-radius:8px;padding:14px 16px;text-decoration:none;color:var(--primary);font-size:0.9em;font-weight:500;transition:all 0.2s;text-align:center;display:flex;align-items:center;justify-content:center;gap:6px}
+.area-chip:hover{background:var(--accent);color:var(--white);border-color:var(--accent);transform:translateY(-2px)}
+.process{background:var(--white)}
+.process-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px;margin-top:56px}
+.process-step{}
+.step-num{font-family:var(--ff-display);font-size:4em;color:#e8f4fd;line-height:1;margin-bottom:12px;letter-spacing:1px}
+.step-title{font-weight:700;font-size:1.05em;color:var(--primary);margin-bottom:8px}
+.step-desc{color:var(--mid);font-size:0.9em;line-height:1.7}
+.testimonials{background:#0a1628}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:56px}
+.review-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:28px}
+.stars{color:#f4a261;font-size:1em;margin-bottom:16px;letter-spacing:2px}
+.review-text{color:rgba(255,255,255,0.8);font-size:0.95em;line-height:1.7;margin-bottom:20px;font-style:italic}
+.reviewer{color:var(--cool);font-weight:600;font-size:0.88em}
+.reviewer-loc{color:rgba(255,255,255,0.4);font-size:0.82em;margin-top:2px}
+.faq{background:var(--white)}
+.faq-list{max-width:720px;margin-top:48px}
+details{border-bottom:1px solid #e8eef4;padding:20px 0}
+details summary{font-weight:600;color:var(--primary);cursor:pointer;font-size:1em;list-style:none;display:flex;justify-content:space-between;align-items:center}
+details summary::after{content:'+';font-size:1.4em;color:var(--cool);transition:transform 0.2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--mid);margin-top:12px;line-height:1.7;font-size:0.95em}
+.cta-section{background:linear-gradient(135deg,var(--accent) 0%,#9d0208 100%);text-align:center;padding:96px 40px}
+.cta-section h2{font-family:var(--ff-display);font-size:clamp(2.5em,5vw,4em);color:var(--white);letter-spacing:2px;margin-bottom:16px}
+.cta-section p{color:rgba(255,255,255,0.85);font-size:1.1em;margin-bottom:40px;max-width:500px;margin-left:auto;margin-right:auto;line-height:1.7}
+.cta-phone{font-family:var(--ff-display);font-size:2.5em;color:var(--white);letter-spacing:2px;margin-bottom:32px;display:block}
+footer{background:#0d1117;color:rgba(255,255,255,0.5);padding:48px 40px 32px;text-align:center}
+footer .footer-logo{font-family:var(--ff-display);font-size:1.8em;color:var(--white);letter-spacing:1px;margin-bottom:16px}
+footer .footer-logo span{color:var(--cool)}
+footer .footer-links{display:flex;gap:24px;justify-content:center;margin-bottom:24px;flex-wrap:wrap}
+footer .footer-links a{color:rgba(255,255,255,0.4);text-decoration:none;font-size:0.85em;transition:color 0.2s}
+footer .footer-links a:hover{color:var(--cool)}
+footer .footer-copy{font-size:0.8em;color:rgba(255,255,255,0.25)}
+@media(max-width:768px){nav{padding:0 20px}.nav-links{display:none}section{padding:64px 20px}.hero{padding:100px 20px 60px}.stats-bar{gap:32px;padding:24px 20px}.emergency-bar{padding:12px 20px}.cta-section{padding:64px 20px}}
+</style>
+</head>
+<body>
+<nav>
+<a href="/" class="nav-logo">HOUSTON<span>HVAC</span>PRO</a>
+<div class="nav-links">
+<a href="#services">Services</a>
+<a href="#areas">Service Areas</a>
+<a href="#process">How It Works</a>
+<a href="#reviews">Reviews</a>
+<a href="#faq">FAQ</a>
+<a href="tel:8326624107" class="nav-cta">📞 Emergency Service</a>
+</div>
+</nav>
+<div class="quote-bar">
+<p>&ldquo;I believe the unbelievable, I receive the impossible, because it&rsquo;s doable.&rdquo; <span>— Jesse Duplantis</span></p>
+</div>
+<div class="emergency-bar">
+<p>🚨 AC Down? We offer same-day emergency service across Houston — <a href="tel:8326624107">Call 832-662-4107 Now</a></p>
+</div>
+<section class="hero" id="home">
+<div class="hero-badge">● Houston's Trusted HVAC Company</div>
+<h1>WHEN IT'S HOT,<br><span class="accent">WE FIX IT.</span></h1>
+<p class="hero-sub">AC repair, air conditioning installation, furnace service, and 24/7 emergency HVAC repair across Houston and 30+ surrounding communities. Same-day service available.</p>
+<div class="hero-actions">
+<a href="tel:8326624107" class="btn-primary">📞 Call for Same-Day Service</a>
+<a href="#services" class="btn-secondary">See Our Services →</a>
+</div>
+</section>
+<div class="stats-bar">
+<div class="stat"><div class="stat-num">24/7</div><div class="stat-label">Emergency Service</div></div>
+<div class="stat"><div class="stat-num">Same Day</div><div class="stat-label">Response</div></div>
+<div class="stat"><div class="stat-num">30+</div><div class="stat-label">Cities Served</div></div>
+<div class="stat"><div class="stat-num">100%</div><div class="stat-label">Satisfaction Guarantee</div></div>
+</div>
+<section class="services" id="services">
+<div class="section-inner">
+<div class="eyebrow">What We Do</div>
+<h2 class="section-title">HVAC Services in Houston TX</h2>
+<p class="section-body">From emergency AC repair to full system installations, we handle every HVAC need for Houston homeowners and businesses.</p>
+<div class="services-grid">
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="AC Repair Houston" class="service-img">
+<div class="service-body">
+<div class="service-icon">❄️</div>
+<div class="service-name">AC Repair Houston TX</div>
+<div class="service-desc">Fast diagnosis and repair for all AC makes and models. We get your air conditioning running again — same day when possible.</div>
+<div class="service-price">Free diagnostic with repair</div>
+</div>
+</div>
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" alt="Air Conditioning Installation" class="service-img">
+<div class="service-body">
+<div class="service-icon">🔧</div>
+<div class="service-name">AC Installation Houston</div>
+<div class="service-desc">New AC system installation with energy-efficient units from top brands. We size the system right for your home and budget.</div>
+<div class="service-price">Free installation quote</div>
+</div>
+</div>
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="HVAC Tune Up" class="service-img">
+<div class="service-body">
+<div class="service-icon">🌡️</div>
+<div class="service-name">HVAC Tune Up & Maintenance</div>
+<div class="service-desc">Annual tune-ups that extend your system's life and prevent costly breakdowns. Includes full inspection, cleaning, and filter replacement.</div>
+<div class="service-price">Starting at $89</div>
+</div>
+</div>
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Furnace Repair" class="service-img">
+<div class="service-body">
+<div class="service-icon">🔥</div>
+<div class="service-name">Furnace & Heating Repair</div>
+<div class="service-desc">Furnace repair, heat pump service, and heating system installation. We keep Houston homes warm when cold fronts roll through.</div>
+<div class="service-price">Same-day service available</div>
+</div>
+</div>
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80" alt="Emergency AC Repair" class="service-img">
+<div class="service-body">
+<div class="service-icon">🚨</div>
+<div class="service-name">Emergency AC Repair 24/7</div>
+<div class="service-desc">AC failure in Houston summer is an emergency. We offer 24/7 emergency HVAC service — nights, weekends, and holidays.</div>
+<div class="service-price">Available 24/7 — call now</div>
+</div>
+</div>
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Commercial HVAC" class="service-img">
+<div class="service-body">
+<div class="service-icon">🏢</div>
+<div class="service-name">Commercial HVAC Houston</div>
+<div class="service-desc">Commercial AC repair and installation for offices, retail, restaurants, and warehouses across the Houston metro area.</div>
+<div class="service-price">Custom commercial quotes</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="keywords" style="padding:56px 40px;">
+<div class="section-inner">
+<div class="eyebrow" style="color:var(--cool-light);">What People Search For</div>
+<h2 class="section-title light">We Handle Every HVAC Need in Houston</h2>
+<div class="keywords-grid">
+<div class="keyword-chip">AC repair near me Houston</div>
+<div class="keyword-chip">air conditioning repair Houston TX</div>
+<div class="keyword-chip">HVAC service Houston</div>
+<div class="keyword-chip">emergency AC repair Houston</div>
+<div class="keyword-chip">AC installation Houston TX</div>
+<div class="keyword-chip">air conditioner not cooling</div>
+<div class="keyword-chip">HVAC tune up Houston</div>
+<div class="keyword-chip">AC unit replacement Houston</div>
+<div class="keyword-chip">furnace repair Houston</div>
+<div class="keyword-chip">heat pump repair Houston TX</div>
+<div class="keyword-chip">AC blowing warm air</div>
+<div class="keyword-chip">HVAC company near me</div>
+<div class="keyword-chip">air conditioning maintenance</div>
+<div class="keyword-chip">central AC repair Houston</div>
+<div class="keyword-chip">commercial HVAC Houston</div>
+<div class="keyword-chip">AC refrigerant recharge</div>
+</div>
+</div>
+</section>
+<section class="areas" id="areas">
+<div class="section-inner">
+<div class="eyebrow">Where We Serve</div>
+<h2 class="section-title">Houston & Surrounding Areas</h2>
+<p class="section-body">We serve Houston and all communities within 15 miles — fast response times guaranteed.</p>
+<div class="areas-grid">
+<a href="/ac-repair/pasadena-tx.html" class="area-chip">📍 Pasadena</a>
+<a href="/ac-repair/pearland-tx.html" class="area-chip">📍 Pearland</a>
+<a href="/ac-repair/bellaire-tx.html" class="area-chip">📍 Bellaire</a>
+<a href="/ac-repair/south-houston-tx.html" class="area-chip">📍 South Houston</a>
+<a href="/ac-repair/galena-park-tx.html" class="area-chip">📍 Galena Park</a>
+<a href="/ac-repair/deer-park-tx.html" class="area-chip">📍 Deer Park</a>
+<a href="/ac-repair/la-porte-tx.html" class="area-chip">📍 La Porte</a>
+<a href="/ac-repair/channelview-tx.html" class="area-chip">📍 Channelview</a>
+<a href="/ac-repair/stafford-tx.html" class="area-chip">📍 Stafford</a>
+<a href="/ac-repair/missouri-city-tx.html" class="area-chip">📍 Missouri City</a>
+<a href="/ac-repair/friendswood-tx.html" class="area-chip">📍 Friendswood</a>
+<a href="/ac-repair/webster-tx.html" class="area-chip">📍 Webster</a>
+<a href="/ac-repair/alief-tx.html" class="area-chip">📍 Alief</a>
+<a href="/ac-repair/cloverleaf-tx.html" class="area-chip">📍 Cloverleaf</a>
+<a href="/ac-repair/sharpstown-tx.html" class="area-chip">📍 Sharpstown</a>
+<a href="/ac-repair/meyerland-tx.html" class="area-chip">📍 Meyerland</a>
+<a href="/ac-repair/westbury-tx.html" class="area-chip">📍 Westbury</a>
+<a href="/ac-repair/acres-homes-tx.html" class="area-chip">📍 Acres Homes</a>
+<a href="/ac-repair/league-city-tx.html" class="area-chip">📍 League City</a>
+<a href="/ac-repair/katy-tx.html" class="area-chip">📍 Katy</a>
+<a href="/ac-repair/sugar-land-tx.html" class="area-chip">📍 Sugar Land</a>
+<a href="/ac-repair/baytown-tx.html" class="area-chip">📍 Baytown</a>
+<a href="/ac-repair/humble-tx.html" class="area-chip">📍 Humble</a>
+<a href="/ac-repair/jacinto-city-tx.html" class="area-chip">📍 Jacinto City</a>
+<a href="/ac-repair/fifth-ward-tx.html" class="area-chip">📍 Fifth Ward</a>
+<a href="/ac-repair/east-end-tx.html" class="area-chip">📍 East End</a>
+<a href="/ac-repair/braeswood-tx.html" class="area-chip">📍 Braeswood</a>
+<a href="/ac-repair/sunnyside-tx.html" class="area-chip">📍 Sunnyside</a>
+<a href="/ac-repair/spring-tx.html" class="area-chip">📍 Spring</a>
+<a href="/ac-repair/cypress-tx.html" class="area-chip">📍 Cypress</a>
+</div>
+</div>
+</section>
+<section class="process" id="process">
+<div class="section-inner">
+<div class="eyebrow">Simple Process</div>
+<h2 class="section-title">How It Works</h2>
+<div class="process-steps">
+<div class="process-step"><div class="step-num">01</div><div class="step-title">Call or Text Us</div><div class="step-desc">Tell us your HVAC problem. We ask a few quick questions to diagnose the issue before we even arrive.</div></div>
+<div class="process-step"><div class="step-num">02</div><div class="step-title">Same-Day Dispatch</div><div class="step-desc">We dispatch a certified HVAC technician to your location — often within 2-4 hours of your call.</div></div>
+<div class="process-step"><div class="step-num">03</div><div class="step-title">Honest Diagnosis</div><div class="step-desc">We diagnose the problem and give you a clear, upfront price before any work begins. No surprises.</div></div>
+<div class="process-step"><div class="step-num">04</div><div class="step-title">Fixed & Guaranteed</div><div class="step-desc">We fix it right the first time — backed by our 100% satisfaction guarantee. Your comfort is restored.</div></div>
+</div>
+</div>
+</section>
+<section class="testimonials" id="reviews">
+<div class="section-inner">
+<div class="eyebrow">What Customers Say</div>
+<h2 class="section-title light">Real Reviews from Houston Homeowners</h2>
+<div class="reviews-grid">
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<div class="review-text">"AC went out on a Saturday in July — 104 degrees outside. They had a technician at my house within 3 hours and fixed it the same day. Absolute lifesavers. Price was very reasonable too."</div>
+<div class="reviewer">David K.</div><div class="reviewer-loc">Pearland, TX</div>
+</div>
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<div class="review-text">"Got three quotes for a new AC unit and Houston HVAC Pro was the most professional and most affordable. Installation was done in one day and the technicians were clean and respectful. Highly recommend."</div>
+<div class="reviewer">Maria S.</div><div class="reviewer-loc">Katy, TX</div>
+</div>
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<div class="review-text">"They've been maintaining our HVAC system for two years now. Always on time, always honest about what's needed. We've referred them to four neighbors and they all say the same thing — best in Houston."</div>
+<div class="reviewer">James T.</div><div class="reviewer-loc">Sugar Land, TX</div>
+</div>
+</div>
+</div>
+</section>
+<section class="faq" id="faq">
+<div class="section-inner">
+<div class="eyebrow">Common Questions</div>
+<h2 class="section-title">Frequently Asked Questions</h2>
+<div class="faq-list">
+<details><summary>How fast can you respond to an emergency AC repair in Houston?</summary><p>For emergency calls, we typically dispatch a technician within 2-4 hours. We offer 24/7 emergency service — nights, weekends, and holidays. Houston summers don't wait and neither do we.</p></details>
+<details><summary>What brands of AC units do you service?</summary><p>We service all major brands including Carrier, Trane, Lennox, Rheem, York, Goodman, American Standard, and more. Our technicians are certified to work on virtually any residential or commercial HVAC system.</p></details>
+<details><summary>How much does AC repair cost in Houston?</summary><p>Most residential AC repairs range from $150 to $600 depending on the issue. Common repairs like capacitor replacement run $150-250. Refrigerant recharge is $200-400. We always provide upfront pricing before any work begins.</p></details>
+<details><summary>When should I replace my AC instead of repairing it?</summary><p>If your AC is over 10-12 years old and repair costs exceed 50% of a new unit's price, replacement is usually the better investment. We'll give you an honest recommendation — not one that benefits us.</p></details>
+<details><summary>Do you serve my neighborhood?</summary><p>We serve Houston and all surrounding communities within 15 miles including Pasadena, Pearland, Katy, Sugar Land, Stafford, Missouri City, Alief, Meyerland, Channelview, Spring, Cypress, and 20+ more areas.</p></details>
+</div>
+</div>
+</section>
+<section class="cta-section">
+<div class="section-inner">
+<h2>AC DOWN? DON'T SUFFER IN THE HEAT.</h2>
+<p>Call us now for same-day emergency AC repair in Houston. Available 24/7 — even on weekends and holidays.</p>
+<a href="tel:8326624107" class="cta-phone">832-662-4107</a>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+<a href="tel:8326624107" class="btn-primary" style="background:white;color:#e63946;">📞 Call Now — Same-Day Service</a>
+<a href="sms:8326624107" class="btn-secondary" style="border-color:rgba(255,255,255,0.5);color:white;">💬 Text Us Instead</a>
+</div>
+</div>
+</section>
+<div style="background:#1a1a2e;border-top:1px solid rgba(201,168,76,0.2);padding:28px 40px;text-align:center"><p style="color:rgba(255,255,255,0.5);font-size:0.85em;margin-bottom:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase">For Home Service Contractors</p><p style="color:rgba(255,255,255,0.7);font-size:0.92em;margin-bottom:14px">Run your business smarter with <strong style="color:#c9a84c">ServiceTitan</strong> — the #1 software for HVAC, roofing, plumbing, and all home service companies. Scheduling, dispatching, invoicing, and CRM all in one place.</p><a href="https://join.servicetitan.com/mzWepOS" target="_blank" style="display:inline-block;background:#c9a84c;color:#1a1a2e;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:700;font-size:0.88em">Get a Free ServiceTitan Demo →</a></div><footer>
+<div class="footer-logo">HOUSTON<span>HVAC</span>PRO</div>
+<div class="footer-links">
+<a href="#services">Services</a>
+<a href="#areas">Service Areas</a>
+<a href="#process">How It Works</a>
+<a href="#reviews">Reviews</a>
+<a href="#faq">FAQ</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+</div>
+<p class="footer-copy">© 2026 Houston HVAC Pro. Serving Houston, TX and surrounding communities. Licensed & Insured.</p>
+</footer>
+</body>
+</html>
