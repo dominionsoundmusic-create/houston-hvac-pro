@@ -7,3 +7,11 @@
 /emergency-ac-repair/*  /emergency-ac-repair/  301
 /furnace-repair/*  /furnace-repair/  301
 /hvac-tune-up/*  /hvac-tune-up/  301
+
+# Sep 11 2026 - keyword data
+# furnace repair houston: 210/mo at SD 46, and Houston has no winter
+/furnace-repair/*  /ac-repair/  301
+/furnace-repair/  /ac-repair/  301
+# duplicate of /ac-repair/ - consolidating signals onto one URL
+/air-conditioning-repair/*  /ac-repair/  301
+/air-conditioning-repair/  /ac-repair/  301
