@@ -15,3 +15,19 @@
 # duplicate of /ac-repair/ - consolidating signals onto one URL
 /air-conditioning-repair/*  /ac-repair/  301
 /air-conditioning-repair/  /ac-repair/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/why-ac-units-fail-in-houston-summer-heat-1786278660422.html  /ac-not-cooling  301
+/blog/why-ac-units-fail-in-houston-summer-heat-1786278660422  /ac-not-cooling  301
+/blog/how-much-does-ac-replacement-cost-in-houston-1785707449538.html  /ac-repair-cost  301
+/blog/how-much-does-ac-replacement-cost-in-houston-1785707449538  /ac-repair-cost  301
+/blog/signs-your-air-conditioner-needs-repair-not-replacement-1786970395715.html  /ac-repair/  301
+/blog/signs-your-air-conditioner-needs-repair-not-replacement-1786970395715  /ac-repair/  301
+/blog/how-annual-hvac-maintenance-cuts-your-power-bill-1785851396017.html  /hvac-tune-up/  301
+/blog/how-annual-hvac-maintenance-cuts-your-power-bill-1785851396017  /hvac-tune-up/  301
+/blog/how-to-size-an-air-conditioner-for-your-home-1785937526639.html  /ac-installation/  301
+/blog/how-to-size-an-air-conditioner-for-your-home-1785937526639  /ac-installation/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1786023856712.html  /emergency-ac-repair/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1786023856712  /emergency-ac-repair/  301
+/blog/*  /  301
+/blog  /  301
