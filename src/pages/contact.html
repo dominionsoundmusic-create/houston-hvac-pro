@@ -18,7 +18,7 @@ faqs:
   - q: "What hours can I call?"
     a: "<p>Any time. An automated assistant picks up day and night, weekends and holidays included. When the HVAC company can visit is something you settle with that company.</p>"
   - q: "Who do I contact about a repair that was already done?"
-    a: "<p>The company that did the work. It quoted the job, did it and billed you, so the invoice, warranty and any follow-up visit are its responsibility. When that goes nowhere, the state agency that licenses air conditioning contractors, TDLR, takes complaints online at tdlr.texas.gov/complaints.</p>"
+    a: "<p>The company that did the work. It quoted the job, did it and billed you, so the invoice, warranty and any follow-up visit are its responsibility. When that goes nowhere, the state agency that licenses air conditioning contractors, TDLR, takes complaints through the online complaint system on its website, tdlr.texas.gov.</p>"
   - q: "Does Houston Air & Heating have an office I can visit?"
     a: "<p>No. It is a phone line and website with no public office, and it does not publish a street address. Everything happens on the phone.</p>"
   - q: "What happens to the details I give on the call?"
@@ -60,7 +60,7 @@ faqs:
     <div class="grid-3">
       <div class="panel">
         <h3>You smell gas</h3>
-        <p>Leave the home right away and bring everyone with you. Do not touch light switches, use a phone or start a car while you are inside or close by, since a spark can ignite gas. From a safe distance, call 911 and the gas company. CenterPoint Energy, the gas company in Houston, lists 888-876-5786 to report a gas leak (its safety page also lists 713-659-2111). If another company bills you for gas, use the emergency number on that bill.</p>
+        <p>Leave the home right away and bring everyone with you. Do not touch light switches, use a phone or start a car while you are inside or close by, since a spark can ignite gas. From a safe distance, call 911 and the gas company. CenterPoint Energy, the gas company in Houston, lists 888-876-5786 to report a gas leak. If another company bills you for gas, use the emergency number on that bill.</p>
       </div>
       <div class="panel">
         <h3>The carbon monoxide alarm sounds</h3>
@@ -78,7 +78,7 @@ faqs:
   <h2>A question about a job that is finished</h2>
   <p>Houston Air &amp; Heating does not visit, quote, repair or invoice, so it has no record of the work itself. Ask the business you hired about its repair, install, warranty or invoice. That company's name and phone number should be on your quote or receipt, and so should its TDLR license number if you asked for it.</p>
   {{ img('hvac-05-card.jpg', 'Technician checking an indoor air handler and foil duct', 1200, 675) }}
-  <p>When a disagreement with an air conditioning contractor in Texas stays unresolved, the state licensing agency, TDLR, accepts complaints through its online complaint system at <a href="https://www.tdlr.texas.gov/complaints/" target="_blank" rel="noopener">tdlr.texas.gov/complaints</a>. TDLR says help with filing is available from its customer service line at 1-800-803-9202, and that a complaint must be filed within two years of the event. Include the contractor's name and license number, the dates and what happened.</p>
+  <p>When a disagreement with an air conditioning contractor in Texas stays unresolved, the state licensing agency, TDLR, accepts complaints through the online complaint system on its website, <a href="https://www.tdlr.texas.gov/" target="_blank" rel="noopener">tdlr.texas.gov</a>. TDLR says help with filing online is available from its customer service line at 1-800-803-9202, and that a complaint must be filed within two years of the event. Include the contractor's name and license number, the dates and what happened.</p>
   {{ m.license_check() }}
 
   <h2>Privacy</h2>
@@ -86,10 +86,11 @@ faqs:
   {{ m.disclosure() }}
   {{ m.sources([
     {'label': 'CenterPoint Energy: Gas leak', 'url': 'https://www.centerpointenergy.com/en-us/safety/reporting/gas-leak'},
-    {'label': 'CenterPoint Energy: Safety and emergency resources', 'url': 'https://www.centerpointenergy.com/en-us/safety'},
+    {'label': 'CenterPoint Energy: Contact us (gas leak numbers)', 'url': 'https://www.centerpointenergy.com/en-us/corporate/contact-us/'},
     {'label': 'CPSC: Carbon Monoxide Questions and Answers', 'url': 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers?language=en'},
     {'label': 'CDC: Symptoms of heat-related illnesses', 'url': 'https://www.cdc.gov/extreme-heat/signs-symptoms/'},
-    {'label': 'TDLR: Complaints (Air Conditioning and Refrigeration Contractors)', 'url': 'https://www.tdlr.texas.gov/Complaints/ComplaintForm.aspx?strRadiobutton=Air+Conditioning+and+Refrigeration+Contractors'},
+    {'label': 'TDLR: how TDLR handles consumer complaints (at a glance)', 'url': 'https://www.tdlr.texas.gov/media/pdf/TDLR-Consumer-Complaints-at-a-Glance.pdf'},
+    {'label': 'TDLR: contact information and customer service', 'url': 'https://www.tdlr.texas.gov/help/'},
     {'label': 'TDLR: Compact with Texans (complaint process)', 'url': 'https://www.tdlr.texas.gov/compact.htm'},
     {'label': 'TDLR license search', 'url': 'https://www.tdlr.texas.gov/LicenseSearch/'}
   ]) }}
