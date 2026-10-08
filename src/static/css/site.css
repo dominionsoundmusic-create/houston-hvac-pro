@@ -426,3 +426,4 @@ body > .skiptranslate { display: none !important; }
 .panel { border: 2px solid var(--tint-2); border-top: 5px solid var(--blue-break); }
 .card { border: 2px solid var(--tint-2); }
 .panel, .card { overflow-wrap: break-word; }
+.pill-list + .split, .pill-list + h2 { margin-top: 48px; }

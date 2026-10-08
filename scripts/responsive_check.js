@@ -7,7 +7,7 @@ const path = require("path");
 const base = process.argv[2] && !process.argv[2].startsWith("--") ? process.argv[2] : "http://127.0.0.1:8765";
 const shotsIdx = process.argv.indexOf("--shots");
 const shots = shotsIdx > -1 ? process.argv[shotsIdx + 1] : "";
-const dist = path.join(__dirname, "..", "dist");
+const dist = process.env.DIST || path.join(__dirname, "..", "dist");
 
 function pages(dir, out = []) {
   for (const f of fs.readdirSync(dir)) {
