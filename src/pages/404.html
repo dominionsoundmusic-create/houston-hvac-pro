@@ -1,0 +1,23 @@
+---
+type: error
+title: "Page Not Found | Houston Air & Heating"
+description: "That page is not on houstonairandheating.com. Call the free Houston heating and air conditioning line at (832) 662-4107, or pick one of the pages below."
+h1: "We Could Not Find That Page"
+noindex: true
+lead: "The link may be old or mistyped. The phone line still answers every hour of every day."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <p>If your air conditioner or heat has quit, you do not need this page: call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> and the line will put you through to an independent local HVAC company. If you were looking for something to read, try one of these.</p>
+  <ul class="checks">
+    <li><a href="/">Houston Air &amp; Heating home page</a></li>
+    <li><a href="/ac-repair/">AC repair in Houston</a> or <a href="/emergency-ac-repair/">24 hour emergency AC repair</a></li>
+    <li><a href="/furnace-repair/">Furnace repair</a> and <a href="/heating-repair/">heat pump and electric heat repair</a></li>
+    <li><a href="/ac-installation/">AC installation and replacement</a></li>
+    <li><a href="/service-areas/">Houston-area cities and suburbs</a></li>
+    <li><a href="/how-it-works/">What happens when you call</a></li>
+  </ul>
+  <p><a class="btn btn--orange" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+</section>
+{% endblock %}

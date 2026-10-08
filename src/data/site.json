@@ -1,0 +1,427 @@
+{
+ "business": {
+  "name": "Houston Air & Heating",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "Houston Air & Heating is a d/b/a of Dominion Digital Group.",
+  "category": "Air conditioning and heating referral line for the Houston area",
+  "origin": "https://houstonairandheating.com",
+  "phone_display": "(832) 662-4107",
+  "phone_tel": "+18326624107",
+  "email": "",
+  "address_public": false,
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 188,
+  "logo_height": 64,
+  "theme_color": "#0b5ea8",
+  "description": "A free phone line for AC repair, heating repair and HVAC service in Houston and its suburbs. An automated assistant answers 24/7 and transfers callers to an independent, locally owned heating and air conditioning company.",
+  "short_disclosure": "Houston Air & Heating is a free phone line, not an HVAC contractor. It answers your call and connects you with an independent local heating and air conditioning company, which inspects, quotes and does the work, and which you pay directly.",
+  "referral_disclosure": "Companies may pay a referral fee. You never pay the line.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "license_lookup_url": "https://www.tdlr.texas.gov/LicenseSearch/",
+  "guide_pdf": "/free-ac-guide/files/refrigerant-changeover-maurice-johnson.pdf"
+ },
+ "cta": {
+  "primary_label": "Call (832) 662-4107",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "",
+  "gtm": ""
+ },
+ "social": {
+  "facebook": "",
+  "instagram": "",
+  "google_business": "",
+  "tiktok": ""
+ },
+ "nav": [
+  {
+   "label": "Services",
+   "menu": "services",
+   "href": "/services/"
+  },
+  {
+   "label": "Service Areas",
+   "menu": "areas",
+   "href": "/service-areas/"
+  },
+  {
+   "label": "Guides",
+   "menu": "guides"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  }
+ ],
+ "footer_links": [
+  {
+   "label": "All Services",
+   "href": "/services/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy.html"
+  },
+  {
+   "label": "Terms of Use",
+   "href": "/terms.html"
+  }
+ ],
+ "services": [
+  {
+   "slug": "ac-repair",
+   "url": "/ac-repair/",
+   "name": "AC Repair in Houston",
+   "short": "AC Repair",
+   "summary": "Warm air, a unit that hums but will not start, ice on the lines or a tripped breaker. How a careful diagnosis works in Houston heat and what to ask before you approve a repair.",
+   "card_image": "hvac-01-card.jpg",
+   "card_alt": "Technician reading a gauge manifold connected to an outdoor AC unit"
+  },
+  {
+   "slug": "air-conditioning-repair",
+   "url": "/air-conditioning-repair/",
+   "name": "Air Conditioning Repair",
+   "short": "Air Conditioning Repair",
+   "summary": "The parts of a central air system that wear out in Gulf Coast heat and humidity, what each repair involves, and when a repair stops making sense.",
+   "card_image": "technician-crouched-condenser.jpg",
+   "card_alt": "Technician crouched beside an outdoor condenser next to a brick wall"
+  },
+  {
+   "slug": "emergency-ac-repair",
+   "url": "/emergency-ac-repair/",
+   "name": "Emergency AC Repair (24/7)",
+   "short": "Emergency AC Repair",
+   "summary": "No cooling at night, on a weekend or during a heat wave or power outage. What to do while you wait and who is most at risk.",
+   "card_image": "hvac-06-card.jpg",
+   "card_alt": "Technician walking to a service van in a driveway at dusk"
+  },
+  {
+   "slug": "ac-installation",
+   "url": "/ac-installation/",
+   "name": "AC Installation and Replacement",
+   "short": "AC Installation",
+   "summary": "Why a load calculation matters more than the brand, what a complete replacement quote lists, and permits in Houston.",
+   "card_image": "installers-new-condenser.jpg",
+   "card_alt": "Two installers setting a new outdoor AC condenser beside a home"
+  },
+  {
+   "slug": "furnace-repair",
+   "url": "/furnace-repair/",
+   "name": "Furnace Repair",
+   "short": "Furnace Repair",
+   "summary": "Gas furnace not lighting, short cycling or smelling hot on the first cold front. Gas and carbon monoxide safety first, then what a technician checks.",
+   "card_image": "gas-furnace-open-panel.jpg",
+   "card_alt": "Gas furnace with its front panel removed in a utility closet"
+  },
+  {
+   "slug": "heating-repair",
+   "url": "/heating-repair/",
+   "name": "Heating Repair (Heat Pumps and Electric Heat)",
+   "short": "Heating Repair",
+   "summary": "Heat pumps blowing cool air, aux heat running all night, electric heat strips that quit. How Houston homes heat and what goes wrong before a freeze.",
+   "card_image": "thermostat-warm-light.jpg",
+   "card_alt": "Finger pressing the button on a wall thermostat in warm lamp light"
+  },
+  {
+   "slug": "hvac-tune-up",
+   "url": "/hvac-tune-up/",
+   "name": "HVAC Tune-Up and Maintenance",
+   "short": "HVAC Tune-Up",
+   "summary": "How often to service an AC and furnace on the Gulf Coast, when to book it, and the filter and drain habits that matter most in humid heat.",
+   "card_image": "hvac-02-card.jpg",
+   "card_alt": "Two technicians servicing an outdoor AC unit beside a house"
+  },
+  {
+   "slug": "commercial-hvac",
+   "url": "/commercial-hvac/",
+   "name": "Commercial HVAC",
+   "short": "Commercial HVAC",
+   "summary": "Rooftop units, offices, shops and restaurants. How commercial AC repair differs from residential and what to ask a commercial contractor.",
+   "card_image": "hvac-04-card.jpg",
+   "card_alt": "Technician servicing large rooftop HVAC units with a city skyline behind"
+  }
+ ],
+ "guides": [
+  {
+   "slug": "ac-repair-cost",
+   "url": "/ac-repair-cost.html",
+   "name": "How Much Does AC Repair Cost?",
+   "short": "AC Repair Cost",
+   "summary": "Published cost ranges for common AC repairs, what pushes a Houston bill up or down, and how to read a quote."
+  },
+  {
+   "slug": "ac-not-cooling",
+   "url": "/ac-not-cooling.html",
+   "name": "AC Running but Not Cooling",
+   "short": "AC Not Cooling",
+   "summary": "The safe checks to make first, what the common causes are, and when to stop and call."
+  },
+  {
+   "slug": "ac-leaking-water",
+   "url": "/ac-leaking-water.html",
+   "name": "AC Leaking Water",
+   "short": "AC Leaking Water",
+   "summary": "Why a central AC drips in Gulf Coast humidity, where the water comes from and how to limit ceiling damage."
+  },
+  {
+   "slug": "repair-or-replace-ac",
+   "url": "/repair-or-replace-ac/",
+   "name": "Repair or Replace Your AC or Furnace?",
+   "short": "Repair or Replace",
+   "summary": "Age, repair cost, refrigerant and efficiency: a plain way to weigh fixing an old system against replacing it."
+  },
+  {
+   "slug": "is-hvac-tune-up-worth-it",
+   "url": "/is-hvac-tune-up-worth-it/",
+   "name": "Is an HVAC Tune-Up Worth It?",
+   "short": "Is a Tune-Up Worth It?",
+   "summary": "What the evidence says about yearly maintenance, who gains the most from it and when you can skip it."
+  },
+  {
+   "slug": "hvac-tune-up-checklist",
+   "url": "/hvac-tune-up-checklist/",
+   "name": "What an HVAC Tune-Up Includes",
+   "short": "Tune-Up Checklist",
+   "summary": "A line by line checklist of what a real AC and furnace tune-up covers, so you can tell a full visit from a quick look."
+  },
+  {
+   "slug": "hvac-company",
+   "url": "/hvac-company/",
+   "name": "How to Choose an HVAC Company in Houston",
+   "short": "Choosing an HVAC Company",
+   "summary": "Check the TDLR license, compare written quotes and spot the red flags before anyone starts work."
+  },
+  {
+   "slug": "water-heater-repair",
+   "url": "/water-heater-repair.html",
+   "name": "Water Heater Repair: Who to Call",
+   "short": "Water Heater Repair",
+   "summary": "Water heaters are plumbing work in Texas. Safe checks, warning signs and how to verify a plumber's license."
+  },
+  {
+   "slug": "free-ac-guide",
+   "url": "/free-ac-guide/",
+   "name": "Free AC Refrigerant Guide (PDF)",
+   "short": "Free Refrigerant Guide",
+   "summary": "The R-410A to R-454B change explained for homeowners. A free PDF book by Maurice Johnson, one click, no form."
+  }
+ ],
+ "areas": [
+  {
+   "slug": "the-woodlands-tx",
+   "url": "/ac-repair/the-woodlands-tx.html",
+   "name": "The Woodlands",
+   "city": "The Woodlands",
+   "county": "Montgomery and Harris",
+   "keyword": "ac repair the woodlands (1,600/mo, SD 29)",
+   "summary": "Planned forest community opened in 1974 and run by a township, spanning Montgomery and Harris counties.",
+   "group": "north"
+  },
+  {
+   "slug": "cypress-tx",
+   "url": "/ac-repair/cypress-tx.html",
+   "name": "Cypress",
+   "city": "Cypress",
+   "county": "Harris",
+   "keyword": "ac repair cypress (1,000/mo, SD 13)",
+   "summary": "Unincorporated northwest Harris County community along US 290 that stayed rural until the 1980s, now one of the area's largest suburbs.",
+   "group": "west"
+  },
+  {
+   "slug": "spring-tx",
+   "url": "/ac-repair/spring-tx.html",
+   "name": "Spring",
+   "city": "Spring",
+   "county": "Harris and Montgomery",
+   "keyword": "ac repair spring texas (1,000/mo, SD 12)",
+   "summary": "Unincorporated railroad town from 1871, now a Harris County community of about 62,500 people with no city government.",
+   "group": "north"
+  },
+  {
+   "slug": "humble-tx",
+   "url": "/ac-repair/humble-tx.html",
+   "name": "Humble",
+   "city": "Humble",
+   "county": "Harris",
+   "keyword": "ac repair humble texas (880/mo, SD 14)",
+   "summary": "Small city born in a 1905 oil boom beside Bush Intercontinental, ringed by larger unincorporated areas such as Atascocita near Lake Houston.",
+   "group": "north"
+  },
+  {
+   "slug": "katy-tx",
+   "url": "/ac-repair/katy-tx.html",
+   "name": "Katy",
+   "city": "Katy",
+   "county": "Harris, Fort Bend and Waller",
+   "keyword": "a c repair katy (720/mo, SD 32)",
+   "summary": "Former rice and railroad town spanning Harris, Fort Bend and Waller counties, inside a much larger suburban Katy area.",
+   "group": "west"
+  },
+  {
+   "slug": "sugar-land-tx",
+   "url": "/ac-repair/sugar-land-tx.html",
+   "name": "Sugar Land",
+   "city": "Sugar Land",
+   "county": "Fort Bend",
+   "keyword": "sugar land ac repair (480/mo, SD 27)",
+   "summary": "Former sugar company town incorporated in 1959, with 111,026 residents in 2020 and many neighborhoods inside levee districts.",
+   "group": "southwest"
+  },
+  {
+   "slug": "pearland-tx",
+   "url": "/ac-repair/pearland-tx.html",
+   "name": "Pearland",
+   "city": "Pearland",
+   "county": "Brazoria, Harris and Fort Bend",
+   "keyword": "ac repair pearland tx (480/mo, SD 19)",
+   "summary": "Mostly Brazoria County city that grew from 37,640 people in 2000 to 125,828 in 2020.",
+   "group": "south"
+  },
+  {
+   "slug": "pasadena-tx",
+   "url": "/ac-repair/pasadena-tx.html",
+   "name": "Pasadena",
+   "city": "Pasadena",
+   "county": "Harris",
+   "keyword": "a c repair pasadena (260/mo, SD 25)",
+   "summary": "Ship Channel city founded in 1893 whose refinery driven postwar boom left about half its homes built before 1977.",
+   "group": "east"
+  },
+  {
+   "slug": "league-city-tx",
+   "url": "/ac-repair/league-city-tx.html",
+   "name": "League City",
+   "city": "League City",
+   "county": "Galveston and Harris",
+   "keyword": "ac repair league city tx (140/mo, SD 12)",
+   "summary": "Fast growing Galveston County suburb near Clear Lake and NASA, where electricity may come from TNMP or CenterPoint.",
+   "group": "south"
+  },
+  {
+   "slug": "missouri-city-tx",
+   "url": "/ac-repair/missouri-city-tx.html",
+   "name": "Missouri City",
+   "city": "Missouri City",
+   "county": "Fort Bend and Harris",
+   "keyword": "ac repair missouri city tx (70/mo, SD 22)",
+   "summary": "Fort Bend city incorporated in 1956, mixing 1970s Quail Valley homes with newer planned communities.",
+   "group": "southwest"
+  },
+  {
+   "slug": "kingwood-tx",
+   "url": "/ac-repair/kingwood-tx.html",
+   "name": "Kingwood",
+   "city": "Kingwood",
+   "county": "Harris and Montgomery",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Wooded master planned community on Lake Houston, part of the City of Houston since its annexation in the mid 1990s.",
+   "group": "north"
+  },
+  {
+   "slug": "baytown-tx",
+   "url": "/ac-repair/baytown-tx.html",
+   "name": "Baytown",
+   "city": "Baytown",
+   "county": "Harris and Chambers",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Oil and refinery city formed in 1948 from Goose Creek, Pelly and Baytown, on Galveston Bay at the east edge of Harris County.",
+   "group": "east"
+  },
+  {
+   "slug": "conroe-tx",
+   "url": "/ac-repair/conroe-tx.html",
+   "name": "Conroe",
+   "city": "Conroe",
+   "county": "Montgomery",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Montgomery County seat near Lake Conroe, with an estimated 114,581 residents in July 2024, about 27 percent above its 2020 count.",
+   "group": "north"
+  },
+  {
+   "slug": "tomball-tx",
+   "url": "/ac-repair/tomball-tx.html",
+   "name": "Tomball",
+   "city": "Tomball",
+   "county": "Harris",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Northwest Harris County city of 12,341 in 2020, founded as a 1907 rail town, with its own city owned natural gas system.",
+   "group": "north"
+  },
+  {
+   "slug": "friendswood-tx",
+   "url": "/ac-repair/friendswood-tx.html",
+   "name": "Friendswood",
+   "city": "Friendswood",
+   "county": "Galveston and Harris",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Galveston and Harris County city founded by Quakers in 1895, a NASA era suburb that flooded badly in Harvey.",
+   "group": "south"
+  },
+  {
+   "slug": "richmond-tx",
+   "url": "/ac-repair/richmond-tx.html",
+   "name": "Richmond",
+   "city": "Richmond",
+   "county": "Fort Bend",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Fort Bend County seat on the Brazos River, founded in 1837 and home to 11,627 people in 2020.",
+   "group": "southwest"
+  },
+  {
+   "slug": "fulshear-tx",
+   "url": "/ac-repair/fulshear-tx.html",
+   "name": "Fulshear",
+   "city": "Fulshear",
+   "county": "Fort Bend",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Western Fort Bend County city that grew from 1,134 people in 2010 to an estimated 64,630 in 2025, mostly in new homes.",
+   "group": "west"
+  },
+  {
+   "slug": "fresno-tx",
+   "url": "/ac-repair/fresno-tx.html",
+   "name": "Fresno",
+   "city": "Fresno",
+   "county": "Fort Bend",
+   "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
+   "summary": "Unincorporated Fort Bend County community of 24,486 in 2020 with no city hall, so county rules apply.",
+   "group": "southwest"
+  }
+ ]
+}

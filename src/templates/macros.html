@@ -1,0 +1,89 @@
+{# Shared page components. Every page body can call these as m.<name>(...). #}
+
+{% macro service_cards(slugs=None, more='Read more') -%}
+<div class="cards">
+{% for s in site.services if slugs is none or s.slug in slugs %}
+  <article class="card">
+    {% if s.card_image and image_exists(s.card_image) %}{% set sz = img_size(s.card_image) %}{{ picture(s.card_image, s.card_alt, sz[0], sz[1], "(max-width: 700px) 100vw, 400px", ' loading="lazy" decoding="async"') }}{% endif %}
+    <div class="card__body">
+      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+      <p>{{ s.summary }}</p>
+      <p class="card__more" aria-hidden="true">{{ more }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro guide_cards(slugs=None) -%}
+<div class="cards">
+{% for g in site.guides if slugs is none or g.slug in slugs %}
+  <article class="card card--text">
+    <div class="card__body">
+      <h3><a href="{{ g.url }}">{{ g.name }}</a></h3>
+      <p>{{ g.summary }}</p>
+      <p class="card__more" aria-hidden="true">Read the guide</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro area_pills(exclude=None) -%}
+<ul class="pill-list">
+  <li><a href="/service-areas/">All Houston-area service areas</a></li>
+{% for a in site.areas if a.slug != exclude %}
+  <li><a href="{{ a.url }}">{{ a.name }}</a></li>
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro related(slugs, title='Related services') -%}
+<h2>{{ title }}</h2>
+<ul class="pill-list">
+{% for slug in slugs %}
+  {% if slug.startswith('guide:') %}{% set g = guide(slug[6:]) %}<li><a href="{{ g.url }}">{{ g.name }}</a></li>
+  {% elif slug.startswith('area:') %}{% set a = area(slug[5:]) %}<li><a href="{{ a.url }}">{{ a.name }}</a></li>
+  {% else %}{% set s = svc(slug) %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endif %}
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro call_box(text='Still unsure what is wrong? Phone the line and say what the system is doing. The local company you reach looks at it in person and gives you its price before anything is repaired.') -%}
+<div class="note note--orange">
+  <p>{{ text }}</p>
+  <p><a class="btn btn--navy btn--sm" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+</div>
+{%- endmacro %}
+
+{% macro how_it_works_short() -%}
+<ol class="how-strip">
+  <li><strong>Dial the number</strong>An automated assistant picks up {{ site.business.phone_display }} at any hour and asks what you need help with.</li>
+  <li><strong>Say what is wrong</strong>Tell it whether the trouble is cooling or heating, where in the Houston area you are, and what the system is doing.</li>
+  <li><strong>Reach a local company</strong>Your call is transferred to an independent, locally owned HVAC company, which gets a short summary of your problem before it answers.</li>
+  <li><strong>Work it out with them</strong>That company inspects, quotes, repairs and bills you directly. If nobody can pick up, your name, number and problem are passed on for a call back.</li>
+</ol>
+{%- endmacro %}
+
+{% macro disclosure() -%}
+<div class="note">
+  <p><strong>About this line:</strong> {{ site.business.short_disclosure }} {{ site.business.referral_disclosure }} <a href="/how-it-works/">Read how the line works</a>.</p>
+</div>
+{%- endmacro %}
+
+{% macro license_check() -%}
+<div class="note">
+  <p><strong>Verify the license before work begins.</strong> Texas requires anyone contracting to do air conditioning, refrigeration or heating work to hold an Air Conditioning and Refrigeration (ACR) Contractor license from the Texas Department of Licensing and Regulation (TDLR). Ask the company for its ACR license number, then confirm it on the <a href="{{ site.business.license_lookup_url }}" target="_blank" rel="noopener">TDLR license search<span class="sr"> (opens in a new tab)</span></a>. The line does not check this for you.</p>
+</div>
+{%- endmacro %}
+
+{% macro sources(items) -%}
+<aside class="sources" aria-labelledby="sources-title">
+  <h2 id="sources-title">Sources</h2>
+  <ul>
+  {% for s in items %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>
+  {% endfor %}
+  </ul>
+</aside>
+{%- endmacro %}
