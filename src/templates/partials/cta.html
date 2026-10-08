@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Reach a local heating and cooling company') }}</h2>
+      <p>{{ page.cta_text | default('One free call, any hour. Say whether it is the AC or the heat, where you are and what is happening, and the line transfers you to an independent, locally owned HVAC company that looks at the system and prices the job itself.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Any hour</strong>An automated assistant takes calls around the clock, including weekends and holidays.</li>
+      <li><strong>No charge to you</strong>The line never bills callers. Prices come only from the HVAC company.</li>
+      <li><strong>Ask for the ACR license</strong>Get the company's Texas license number and check it on TDLR before work begins.</li>
+      <li><strong>Your decision</strong>You hear the diagnosis and the price first, then choose whether to go ahead.</li>
+    </ul>
+  </div>
+</section>
