@@ -250,7 +250,8 @@
    "city": "The Woodlands",
    "county": "Montgomery and Harris",
    "keyword": "ac repair the woodlands (1,600/mo, SD 29)",
-   "summary": ""
+   "summary": "Planned forest community opened in 1974 and run by a township, spanning Montgomery and Harris counties.",
+   "group": "north"
   },
   {
    "slug": "cypress-tx",
@@ -259,7 +260,8 @@
    "city": "Cypress",
    "county": "Harris",
    "keyword": "ac repair cypress (1,000/mo, SD 13)",
-   "summary": ""
+   "summary": "Unincorporated northwest Harris County community along US 290 that stayed rural until the 1980s, now one of the area's largest suburbs.",
+   "group": "west"
   },
   {
    "slug": "spring-tx",
@@ -268,7 +270,8 @@
    "city": "Spring",
    "county": "Harris and Montgomery",
    "keyword": "ac repair spring texas (1,000/mo, SD 12)",
-   "summary": ""
+   "summary": "Unincorporated railroad town from 1871, now a Harris County community of about 62,500 people with no city government.",
+   "group": "north"
   },
   {
    "slug": "humble-tx",
@@ -277,7 +280,8 @@
    "city": "Humble",
    "county": "Harris",
    "keyword": "ac repair humble texas (880/mo, SD 14)",
-   "summary": ""
+   "summary": "Small city born in a 1905 oil boom beside Bush Intercontinental, ringed by larger unincorporated areas such as Atascocita near Lake Houston.",
+   "group": "north"
   },
   {
    "slug": "katy-tx",
@@ -286,7 +290,8 @@
    "city": "Katy",
    "county": "Harris, Fort Bend and Waller",
    "keyword": "a c repair katy (720/mo, SD 32)",
-   "summary": ""
+   "summary": "Former rice and railroad town spanning Harris, Fort Bend and Waller counties, inside a much larger suburban Katy area.",
+   "group": "west"
   },
   {
    "slug": "sugar-land-tx",
@@ -295,7 +300,8 @@
    "city": "Sugar Land",
    "county": "Fort Bend",
    "keyword": "sugar land ac repair (480/mo, SD 27)",
-   "summary": ""
+   "summary": "Former sugar company town incorporated in 1959, with 111,026 residents in 2020 and many neighborhoods inside levee districts.",
+   "group": "southwest"
   },
   {
    "slug": "pearland-tx",
@@ -304,7 +310,8 @@
    "city": "Pearland",
    "county": "Brazoria, Harris and Fort Bend",
    "keyword": "ac repair pearland tx (480/mo, SD 19)",
-   "summary": ""
+   "summary": "Mostly Brazoria County city that grew from 37,640 people in 2000 to 125,828 in 2020.",
+   "group": "south"
   },
   {
    "slug": "pasadena-tx",
@@ -313,7 +320,8 @@
    "city": "Pasadena",
    "county": "Harris",
    "keyword": "a c repair pasadena (260/mo, SD 25)",
-   "summary": ""
+   "summary": "Ship Channel city founded in 1893 whose refinery driven postwar boom left about half its homes built before 1977.",
+   "group": "east"
   },
   {
    "slug": "league-city-tx",
@@ -322,7 +330,8 @@
    "city": "League City",
    "county": "Galveston and Harris",
    "keyword": "ac repair league city tx (140/mo, SD 12)",
-   "summary": ""
+   "summary": "Fast growing Galveston County suburb near Clear Lake and NASA, where electricity may come from TNMP or CenterPoint.",
+   "group": "south"
   },
   {
    "slug": "missouri-city-tx",
@@ -331,7 +340,8 @@
    "city": "Missouri City",
    "county": "Fort Bend and Harris",
    "keyword": "ac repair missouri city tx (70/mo, SD 22)",
-   "summary": ""
+   "summary": "Fort Bend city incorporated in 1956, mixing 1970s Quail Valley homes with newer planned communities.",
+   "group": "southwest"
   },
   {
    "slug": "kingwood-tx",
@@ -340,7 +350,8 @@
    "city": "Kingwood",
    "county": "Harris and Montgomery",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Wooded master planned community on Lake Houston, part of the City of Houston since its annexation in the mid 1990s.",
+   "group": "north"
   },
   {
    "slug": "baytown-tx",
@@ -349,7 +360,8 @@
    "city": "Baytown",
    "county": "Harris and Chambers",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Oil and refinery city formed in 1948 from Goose Creek, Pelly and Baytown, on Galveston Bay at the east edge of Harris County.",
+   "group": "east"
   },
   {
    "slug": "conroe-tx",
@@ -358,7 +370,8 @@
    "city": "Conroe",
    "county": "Montgomery",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Montgomery County seat near Lake Conroe, grown from 56,207 residents in 2010 to an estimated 108,248 in 2023.",
+   "group": "north"
   },
   {
    "slug": "tomball-tx",
@@ -367,7 +380,8 @@
    "city": "Tomball",
    "county": "Harris",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Small incorporated city in northwest Harris County along State Highway 249, surrounded by unincorporated acreage and subdivisions.",
+   "group": "north"
   },
   {
    "slug": "friendswood-tx",
@@ -376,7 +390,8 @@
    "city": "Friendswood",
    "county": "Galveston and Harris",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Galveston and Harris County city founded by Quakers in 1895, a NASA era suburb that flooded badly in Harvey.",
+   "group": "south"
   },
   {
    "slug": "richmond-tx",
@@ -385,7 +400,8 @@
    "city": "Richmond",
    "county": "Fort Bend",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Fort Bend County seat on the Brazos River, where the river crested at 55.18 feet during Hurricane Harvey.",
+   "group": "southwest"
   },
   {
    "slug": "fulshear-tx",
@@ -394,7 +410,8 @@
    "city": "Fulshear",
    "county": "Fort Bend",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Small western Fort Bend County town ringed by newer master planned communities, where many systems are still under warranty.",
+   "group": "west"
   },
   {
    "slug": "fresno-tx",
@@ -403,7 +420,8 @@
    "city": "Fresno",
    "county": "Fort Bend",
    "keyword": "no volume in the Oct 8 2026 data (existing URL kept)",
-   "summary": ""
+   "summary": "Unincorporated Fort Bend County community south of Houston with no city government or city permit office.",
+   "group": "southwest"
   }
  ]
 }

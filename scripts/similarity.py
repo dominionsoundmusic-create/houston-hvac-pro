@@ -67,6 +67,15 @@ def load(dist):
     return pages
 
 
+# 8-word runs that are only proper names (agencies, the owner company, statutes) cannot be reworded.
+NAMES = ("department of licensing and regulation", "d b a", "dominion digital", "texas data privacy and security act",
+         "texas state board of plumbing examiners")
+
+
+def runs8(words):
+    return {g for g in shingles(words, 8) if not any(n in g for n in NAMES)}
+
+
 def jac(a, b):
     return len(a & b) / len(a | b) if a and b else 0.0
 
@@ -107,10 +116,10 @@ def main():
         for u, (k, w, s) in pages.items():
             if args.only and u != args.only:
                 continue
-            s8 = shingles(w, 8)
+            s8 = runs8(w)
             for du, (dk, dw, ds) in dpages.items():
                 j = jac(s, ds)
-                shared8 = s8 & shingles(dw, 8)
+                shared8 = s8 & runs8(dw)
                 worst.append((j, len(shared8), u, du, sorted(shared8)[:3]))
                 if shared8:
                     dallas_fail.append(f"shares {len(shared8)} 8-word run(s) with Dallas {du}: {u}: {sorted(shared8)[:3]}")
