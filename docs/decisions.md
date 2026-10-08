@@ -77,3 +77,11 @@ reversed later.
     named on the page and a note that quotes vary.
 18. Each page was researched and written by a separate writer for its own keyword; facts carry sources
     on the page. Duplication is measured with scripts/similarity.py (docs/qa.md).
+
+## Verification
+19. **Fact-checking under a restricted network.** The environment blocked direct fetches of nearly all
+    source sites, and web search was capped per turn. Writers and the eight independent fact-checkers
+    verified claims through search-result summaries of the cited official pages; anything not
+    confirmable was softened or removed. Recorded in docs/fact-check.md.
+20. **One gas leak number.** CenterPoint lists more than one number; every page that prints one uses
+    888-876-5786, the number on CenterPoint's gas leak page.
