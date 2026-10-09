@@ -44,7 +44,7 @@
   --radius-sm: 6px;
   --shadow: 0 10px 30px rgba(6, 36, 63, .14);
   --font: "Inter", "Segoe UI", Roboto, Helvetica, Arial, system-ui, sans-serif;
-  --col: 860px;
+  --col: none;  /* Oct 8 2026: text runs as wide as the photos and the split sections (Maurice) */
   --wide: 1180px;
   --gutter: clamp(18px, 4vw, 32px);
   --rail: clamp(22px, 5.5vw, 140px);  /* left and right edge for header, hero, bands and footer: uses the full width of wide monitors */
@@ -79,7 +79,8 @@ li { margin-bottom: .35em; }
 .skip:focus { left: 8px; }
 
 /* ---------- layout ---------- */
-.col { max-width: var(--col); margin: 0 auto; padding: 0 var(--gutter); }
+.col { max-width: none; margin: 0; padding: 0 var(--rail); }
+.col > * { max-width: var(--col); }
 .wide { max-width: none; margin: 0; padding: 0 var(--rail); }
 .band { padding: clamp(48px, 7vw, 88px) 0; }
 .band > .col > h2:first-child, .band > .wide > h2:first-child { margin-top: 0; }
@@ -215,7 +216,8 @@ li { margin-bottom: .35em; }
 .crumbs a { color: var(--link); }
 
 /* ---------- prose / reading column ---------- */
-.prose { max-width: var(--col); margin: 0 auto; padding: clamp(40px, 6vw, 72px) var(--gutter) 0; }
+.prose { max-width: none; margin: 0; padding: clamp(40px, 6vw, 72px) var(--rail) 0; }
+.prose > * { max-width: var(--col); }  /* Oct 8 2026: text starts on the same left edge as the logo, hero and color bands, and runs as wide as the photos */
 .prose:last-child { padding-bottom: clamp(40px, 6vw, 72px); }
 .prose > h2:first-child { margin-top: 0; }
 .prose ul, .prose ol { padding-left: 1.3em; }
@@ -226,7 +228,7 @@ li { margin-bottom: .35em; }
 .fig { margin: 32px 0; border-radius: var(--radius); overflow: hidden; background: var(--tint); box-shadow: var(--shadow); }
 .fig img { width: 100%; height: auto; }
 .fig figcaption { padding: 10px 16px; font-size: .9rem; color: var(--muted); background: var(--tint); }
-.fig--wide { margin-left: calc(-1 * min(120px, 8vw)); margin-right: calc(-1 * min(120px, 8vw)); }
+.fig--wide { margin-left: 0; margin-right: 0; }
 @media (max-width: 900px) { .fig--wide { margin-left: 0; margin-right: 0; } }
 
 /* split: text + image side by side on large screens */
@@ -235,7 +237,7 @@ li { margin-bottom: .35em; }
 .split > :first-child > h2:first-child { margin-top: 0; }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
 /* a two-column block inside the reading column breaks out to the full page width, so its text column is not squeezed to a few words per line */
-@media (min-width: 861px) { .prose .split { width: min(calc(var(--wide) - 2 * var(--gutter)), calc(100vw - 2 * var(--gutter) - 20px)); position: relative; left: 50%; transform: translateX(-50%); grid-template-columns: 1.45fr .55fr; } }
+@media (min-width: 861px) { .prose .split { grid-template-columns: 1.45fr .55fr; } }
 
 /* callouts */
 .note { background: var(--tint); border-left: 5px solid var(--sky); padding: 18px 22px; border-radius: 0 var(--radius) var(--radius) 0; margin: 28px 0; }
@@ -266,7 +268,7 @@ tbody tr:nth-child(even) td { background: #f6f9fb; }
 tbody th { color: var(--navy); background: var(--tint); }
 
 /* cards */
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 22px; margin: 28px 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; margin: 28px 0; }
 .card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 4px 14px rgba(6, 36, 63, .06); transition: transform .15s, box-shadow .15s; }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .card img { aspect-ratio: 16 / 10; object-fit: cover; width: 100%; }
@@ -361,7 +363,7 @@ tbody th { color: var(--navy); background: var(--tint); }
 @media (max-width: 960px) { .how-strip { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .how-strip { grid-template-columns: 1fr; } }
 
-.section-intro { max-width: 78ch; }
+.section-intro { max-width: none; }
 
 /* Google Translate chrome */
 .skiptranslate iframe, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame { display: none !important; }
@@ -427,3 +429,6 @@ body > .skiptranslate { display: none !important; }
 .card { border: 2px solid var(--tint-2); }
 .panel, .card { overflow-wrap: break-word; }
 .pill-list + .split, .pill-list + h2 { margin-top: 48px; }
+
+/* Oct 8 2026: full-width photos in the text are kept to a sensible height */
+.prose > .fig img, .prose > .fig--wide img { max-height: 620px; object-fit: cover; }
