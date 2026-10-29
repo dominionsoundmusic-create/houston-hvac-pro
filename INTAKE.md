@@ -72,13 +72,14 @@ FOOTER OF EVERY PAGE: "© 2026 Dominion Digital Group. All rights reserved." and
 LANGUAGE: EN / ES toggle in the header.
 
 5. CALLS TO ACTION
-MAIN CTA: Call the phone number. THE SITE IS PHONE ONLY. Retire the contact form and the guide
-  sign-up form (the same choice made on Dallas Air & Heating): /contact/ becomes a phone page and
-  /contact/thanks/ 301s to /contact/.
+MAIN CTA: Call the phone number. Oct 29 2026 update (Maurice): the contact page also has a short
+  request form (Netlify form "houston-hvac-contact", fields name, phone, email, city, need, message)
+  that texts Maurice the visitor's need; a local company calls back. /contact/thanks/ is a real
+  noindex page again. The guide sign-up form stays retired. Keep the phone call prominent.
 FREE AC GUIDE: keep /free-ac-guide/ as a one-click download of the PDF already in
   free-ac-guide/files/ (no form). /free-ac-guide/thanks/ 301s to /free-ac-guide/. If the PDF
   mentions "Houston HVAC Pro", note it in docs/decisions.md; do not edit the PDF.
-SECONDARY CTA: a real page (How it works, a guide). Never a form.
+SECONDARY CTA: a real page (How it works, a guide), or the contact page request form.
 
 6. SOCIAL PROFILES
 None. Icon slots are data-driven and stay hidden until URLs are added.

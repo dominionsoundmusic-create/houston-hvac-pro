@@ -29,8 +29,8 @@
 /blog/*  /  301
 /blog  /  301
 
-# Oct 8 2026 - Playbook 2.0 rebuild: the site is phone only, so the form thank-you pages are retired.
-/contact/thanks/  /contact/  301
-/contact/thanks  /contact/  301
+# Oct 8 2026 - Playbook 2.0 rebuild: the guide sign-up form is retired, so its thank-you page points to the guide.
+# Oct 29 2026 - the contact page has a request form again (houston-hvac-contact), so /contact/thanks/ is a real
+# page and its old 301 to /contact/ was removed.
 /free-ac-guide/thanks/  /free-ac-guide/  301
 /free-ac-guide/thanks  /free-ac-guide/  301
